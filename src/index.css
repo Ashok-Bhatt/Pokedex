@@ -1,0 +1,22 @@
+:root{
+    --background-color-medium : #ddd;
+    --background-color-weak: #ccc;
+    --background-color-strong: #fff;
+    --foreground-color-medium : #222;
+    --foreground-color-weak: #333;
+    --foreground-color-strong: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color-strong);
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,100 @@
+.pokemon-page{
+    height: calc(100vh - 100px);
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.image-container img{
+    height: 450px;
+    width: 450px;
+    background-color: var(--background-color-strong);
+}
+
+.pokemon-name-container{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.information-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-info{
+    position: absolute;
+    top:50px;
+    left:20px;
+    height: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: var(--background-color-weak);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.basic-info div{
+    color: var(--foreground-color-strong);
+    background-color: var(--background-color-weak);
+}
+
+.information-container .stats-container{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 10px;
+    row-gap: 20px;
+}
+
+.stat{
+    width: 100%;
+}
+
+.stat-name{
+    font-size: 30px;
+    color: var(--foreground-color-strong);
+}
+
+.full-container{
+    width : 100%;
+    height: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.stat-value{
+    height: 100%;
+    background-color: red;
+}
+
+.image-container .bookmark-icon, .image-container .add-bookmark-icon{
+    position: absolute;
+    top:10px;
+    left:30px;
+    font-size: 25px;
+    background-color: var(--background-color-strong);
+    color: rgb(62, 45, 250);
+}

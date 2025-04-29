@@ -1,0 +1,45 @@
+.pokemon-card{
+    height: 350px;
+    width: 350px;
+    background-color: var(--);
+    border-radius: 10px;
+    border: 2px solid grey;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.pokemon-image{
+    position: relative;
+    height: 90%;
+    width: 100%;
+}
+
+.pokemon-image img{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(157, 208, 242);
+}
+
+.bookmark-icon, .add-bookmark-icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 40px;
+    color: rgb(62, 45, 250);
+    background-color: rgb(157, 208, 242);
+    cursor: pointer;
+}
+
+.pokemon-name{
+    height: 10%;
+    width: 100%;
+    color: var(--background-color-medium);
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
